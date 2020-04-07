@@ -40,12 +40,12 @@ a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
     text-align: center;
     color: sandybrown;
     text-shadow: 0px 2px 4px black;
     font-family: 'Pacifico', cursive;
     font-size: 2vw;
+    line-height: 0;
 }
 
 .headerText:hover{
