@@ -98,3 +98,17 @@ $(document).on('click', '.thumbnailImageContainer', function()
     
     addBigImage();
  });
+
+
+ $(document).on('mouseover', '.thumbnailImageContainer', function()
+{
+    $(this).css('box-shadow', '0px 1px 5px 2px black');
+}
+ );
+
+ $(document).on('mouseout', '.thumbnailImageContainer', function()
+ {
+     $(this).css('box-shadow', '0px 1px 5px 1px black');
+     $("#"+active).css('box-shadow', '0px 2px 5px 5px black');
+ }
+  );
