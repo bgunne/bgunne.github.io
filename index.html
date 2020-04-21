@@ -1,32 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Image slider</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<!doctype html>
+<html lang="hu">
+  <head>
+        <title>Pizza világ</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
-    <div class = "container">
-        <main class = "slider">
-            <div class="buttonBg"><button class = "slideButton" id = "left"></button></div>
-            
-            <div class="imageView"></div>
+  </head>
+  <body>
 
-            <div class="buttonBg"><button class = "slideButton" id = "right"></button></div>
-            
+    <div class="header">
+      <img src="header.jpg" id="headerImage">
+      <div class="headerTextBox"></div>
+      <div class="headerText">
+          <h1><a href="index.html">Pizza világ</a></h1>
+      </div>
+  </div>
 
-        </main>
-        <div class = "thumbnail">
-        </div>
+  <div class=content>
+    <main class=mainContent>
+      <div class="black"> </div>
+    </main>
 
-    </div>
+    <aside class=menuContent>
+      <form class = "login">
+        <p>Bejelentkezés:</p>
+        <label for="username">Felhasználónév</label>
+        <input type="text" id="username">
+        <label for="password">Jelszó</label>
+        <input type="password" id="password">
+        <button><b>Belépés</b></button> Regisztráció
+      </form>
+      <div class="shopCart">
+        
+        <p id="shopCartHeader">Kosár tartalma:</p>
+      </div>
+    </aside>
+  </div>
 
-    
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-</body>
+  <footer><p><a href="about.html">Rólunk</a></p></footer>
+   
+  </body>
 </html>
